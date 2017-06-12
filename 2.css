@@ -1,11 +1,20 @@
-table td {
-border-style: dashed;
-border-color: #111;
-
+table {
+    border-collapse: collapse;
+    align-content: center;
 }
 
-td    {
-  padding: 10 30 10 100px;
-  background-color: #ffa;
-  color: #aaa;
+th, td {
+    padding: 5 80 5 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+th    {
+  background-color: #fca
+}
+
+
+td:hover    {
+  background-color: #ddd;
+  transition-duration: 800ms;
 }
